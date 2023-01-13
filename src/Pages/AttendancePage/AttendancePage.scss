@@ -4,6 +4,8 @@
 
   .attendance-container {
     flex: 4;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     background-color: #f4f4f4;
 
     // ATTENDANCE-TOP-PART
@@ -237,7 +239,7 @@
             display: flex;
             align-items: center;
             font-size: 15px;
-            color:#1c1c1c ;
+            color: #1c1c1c;
             // width: 4.38px;
             // height: 7.5px;
             // background: #1c1c1c;
@@ -247,4 +249,14 @@
       }
     }
   }
+}
+
+// =============MEDIA QUERIES=============//
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
 }
