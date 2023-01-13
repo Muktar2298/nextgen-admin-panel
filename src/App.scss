@@ -3,7 +3,7 @@
   position: relative;
   margin-top: 0.5rem;
   //   margin-bottom: 0.5rem;
-//   width: 100%;
+  //   width: 100%;
   //   min-width: 100vw;
 
   .nav {
@@ -11,7 +11,7 @@
     bottom: 0;
     width: 100%;
     height: 55px;
-   
+
     display: flex;
     // overflow-x: auto;
 
@@ -75,3 +75,35 @@
   }
 }
 
+// ===============MEDIA QUERIES================//
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bottomBar {
+    display: block;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .bottomBar {
+    display: block;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .bottomBar {
+    display: block;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .bottomBar {
+    display: none;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
