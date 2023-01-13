@@ -1,0 +1,171 @@
+.tasksummary {
+  flex: 1;
+  border: 1px dashed #9747ff;
+  border-radius: 5px;
+  height: 344px;
+  padding: 15px;
+
+  .total-task,
+  .completed-task {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1c1c1c;
+  }
+
+  .completed-task {
+    margin-bottom: 8px;
+  }
+
+  .complete-progressbar {
+    margin-bottom: 1rem;
+    padding: 0.5rem 0rem;
+
+    .container {
+      width: 163px;
+      height: 28px;
+      // background-color: #9747ff;
+      background: rgba(0, 0, 0, 0.05);
+      position: relative;
+      border-radius: 8px;
+
+      .progress-bar {
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        background: #c6c7f8;
+        border-radius: 8px 0px 0px 8px;
+        animation: complete-progressbar-animation 3s forwards;
+
+        .progress-bar-title {
+          position: absolute;
+          // left: calc(50% - 59px / 2 + 43px);
+          right: -80%;
+          top: calc(50% - 28px / 2);
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 28px;
+          /* identical to box height, or 156% */
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #1c1c1c;
+        }
+      }
+    }
+
+    @keyframes complete-progressbar-animation {
+      0% {
+        width: 0%;
+      }
+      100% {
+        width: 85px;
+      }
+    }
+  }
+
+
+  .progress-progressbar {
+    margin-bottom: 1rem;
+    padding: 0.5rem 0rem;
+
+    .container {
+      width: 163px;
+      height: 28px;
+      // background-color: #9747ff;
+      background: rgba(0, 0, 0, 0.05);
+      position: relative;
+      border-radius: 8px;
+
+      .progress-bar {
+        width: 100%;
+        position: absolute;
+        // position: relative;
+        height: 100%;
+        background: #c6c7f8;
+        border-radius: 8px 0px 0px 8px;
+        animation: progress-progressbar-animation 3s forwards;
+
+        .progress-bar-title {
+          position: relative;
+            left: 1500%;
+          top: calc(50% - 28px / 2);
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 28px;
+          /* identical to box height, or 156% */
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #1c1c1c;
+        }
+      }
+    }
+
+    @keyframes progress-progressbar-animation {
+      0% {
+        width: 0%;
+      }
+      100% {
+        width: 7px;
+      }
+    }
+  }
+
+
+  .pending-progressbar {
+    // margin-bottom: 1rem;
+    padding: 0.5rem 0rem;
+    .container {
+      width: 163px;
+      height: 28px;
+      // background-color: #9747ff;
+      background: rgba(0, 0, 0, 0.05);
+      position: relative;
+      border-radius: 8px;
+
+      .progress-bar {
+        width: 100%;
+        position: absolute;
+        // position: relative;
+        height: 100%;
+        background: #c6c7f8;
+        border-radius: 8px 0px 0px 8px;
+        animation: pending-progressbar-animation 3s forwards;
+
+        .progress-bar-title {
+          position: relative;
+            left: 250%;
+          top: calc(50% - 28px / 2);
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 28px;
+          /* identical to box height, or 156% */
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #1c1c1c;
+        }
+      }
+    }
+
+    @keyframes pending-progressbar-animation {
+      0% {
+        width: 0%;
+      }
+      100% {
+        width: 40px;
+      }
+    }
+  }
+}

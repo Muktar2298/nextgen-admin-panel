@@ -1,0 +1,120 @@
+/* ============BOTTOM-NAVIGATION-BAR============= */
+.bottomBar {
+  position: relative;
+  margin-top: 0.5rem;
+  //   margin-bottom: 0.5rem;
+  width: 100%;
+  //   min-width: 100vw;
+
+  .nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    // box-shadow: #1e2772;
+    // background: #1e2772;
+    display: flex;
+    overflow-x: auto;
+
+    padding: 0.5rem 0rem;
+    box-shadow: rgba(85, 99, 113, 0.2) 0px 8px 24px;
+    // border: 2px solid #b8b8957f;
+    border-radius: 2rem;
+    .nav__link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      min-width: 50px;
+      overflow: hidden;
+      white-space: nowrap;
+      font-family: 'Poppins', sans-serif;
+      font-size: 13px;
+      color: #232431;
+      text-decoration: none;
+      -webkit-tap-highlight-color: transparent;
+      transition: background-color 0.1s ease-in-out;
+      transition: all ease;
+
+      &:hover {
+        background-color: #23252e;
+        padding-top: 0.5rem;
+        transition: 2s ease;
+        border-radius: 1rem;
+        color: white;
+      }
+      .nav__icon {
+        font-size: 20px;
+        color: #151313d8;
+        transition: all ease;
+      }
+      &:hover .nav__icon {
+        color: #ffffff;
+        transition: 2s ease;
+      }
+
+      .nav__text {
+        margin-top: 0.2rem;
+      }
+    }
+    .nav__link--active {
+      color: #23252e;
+    }
+    .nav__link--unactive {
+      color: #444444;
+    }
+
+    .bottom__profile {
+      width: 100%;
+      max-width: 30px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+    }
+  }
+}
+
+// =================MEDIA-QUERIES===============//
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bottomBar {
+    display: block;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .bottomBar {
+    display: block;
+    .nav {
+      position: static;
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .bottomBar {
+    display: block;
+
+    .nav {
+      position: static;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .bottomBar {
+    display: block;
+  }
+  .nav {
+    position: fixed;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

@@ -1,0 +1,66 @@
+.chart {
+  flex: 3;
+  background: #ffffff;
+  border-radius: 15px;
+  height: 344px;
+  padding: 15px;
+
+  .chart-content {
+    position: relative;
+
+    .content-1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+
+      .times {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        // background-color: red;
+        p:first-child {
+          margin: 0rem !important;
+        }
+        p {
+          margin: 0rem 1rem;
+          //   font-family: 'Urbanist';
+          font-style: normal;
+          font-weight: 800;
+          font-size: 10px;
+          line-height: 91.5%;
+          color: #bcbcbc;
+        }
+      }
+
+      .export-details-btn {
+        position: relative;
+
+        button {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+          box-sizing: border-box;
+          padding: 8px 16px;
+          width: 129px;
+          height: 41px;
+          border-left: 1px solid #1e2772;
+          background-color: #1e2772;
+          color: #ffffff;
+          border-radius: 0.5rem;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 91.5%;
+      color: #000000;
+    }
+  }
+}
