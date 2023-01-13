@@ -40,6 +40,7 @@ const DashboardPage = () => {
           <div className="charts">
             <ChartComponent />
             <TasksummaryComponent />
+           
           </div>
         </div>
       </div>
