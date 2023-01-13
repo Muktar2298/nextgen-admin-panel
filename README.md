@@ -7,7 +7,8 @@ Live Site : https://nextgenit.netlify.app/
 
 
 
-#Mobile Viewport : 
+﻿# MOBILE VIEW:
+ 
 ![mobile-dashboard](https://user-images.githubusercontent.com/72675514/212373646-f04fa2ec-e7ec-414d-8b53-aeaefd5c2c9c.png)
 ![mobile-attendance](https://user-images.githubusercontent.com/72675514/212373683-e332c71e-6e3d-4ba1-b97e-e03089a7e715.png)
 
