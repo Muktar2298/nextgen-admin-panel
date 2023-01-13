@@ -5,7 +5,7 @@ Live Site : https://nextgenit.netlify.app/
 
 
 
-##Output Screenshoot : 
+
 
 #Mobile Viewport : 
 ![mobile-dashboard](https://user-images.githubusercontent.com/72675514/212373646-f04fa2ec-e7ec-414d-8b53-aeaefd5c2c9c.png)
@@ -13,6 +13,7 @@ Live Site : https://nextgenit.netlify.app/
 
 
 #Tablet Viewport : 
+
 ![tablet-dashboard](https://user-images.githubusercontent.com/72675514/212373894-5a018922-fd3b-4813-aaa1-6f4212740b24.png)
 ![tablet-attendance](https://user-images.githubusercontent.com/72675514/212373934-1e847089-6c51-4677-ab29-6bc0bfae8959.png)
 
